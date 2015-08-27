@@ -25,5 +25,9 @@
   "dependencies": {
     "angular": "~1.4.4",
     "logmatic-js": "~0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romain-web/angular-logmatic.git"
   }
 }

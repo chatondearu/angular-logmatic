@@ -1,0 +1,29 @@
+{
+  "name": "angular-logmatic-js",
+  "version": "0.1.0",
+  "authors": [
+    "romain@logmatic.io"
+  ],
+  "description": "Angular module for logmatic-js, send your log to logmatic.io with Javascript.",
+  "main": "dist/angular-logmatic.min.js",
+  "keywords": [
+    "log",
+    "logs",
+    "logmatic",
+    "angular",
+    "module",
+    "component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "logmatic-js": "~0.0.3"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app="app-test">
+<head>
+  <meta charset="utf-8">
+  <title>angular-logmatic</title>
+  <base href="../src/">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+  <!-- inject:css -->
+  <!-- css files will be automatically insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+<body layout="row">
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div role="main" ng-controller="MainController as main">
+  <input type="text" value="" ng-model="main.message" placeholder="tape a massage">
+  <button ng-click="main.sendLog()">send {{ main.message }}</button>
+</div>
+
+
+<!-- build:js(src) scripts/vendor.js -->
+<!-- bower:js -->
+<!-- run `gulp inject` to automatically populate bower script dependencies -->
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,src/scripts}) scripts/app.js -->
+<!-- inject:js -->
+<!-- js files will be automatically insert here -->
+<!-- endinject -->
+
+</body>
+</html>
